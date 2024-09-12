@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="202" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="testapi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="347" height="202"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="347" height="202"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="time to time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgb-ZW-N9u">
+                        <rect key="frame" x="57" y="13" width="260" height="34.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bsb-3i-5lj">
+                        <rect key="frame" x="7" y="4.5" width="48.5" height="51.5"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="AWn-eG-U6F">
+                        <rect key="frame" x="7" y="52.5" width="48.5" height="53"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud.drizzle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="xAH-yj-rp4">
+                        <rect key="frame" x="7" y="104" width="48.5" height="50"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="多雲" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mqo-b9-Ybw">
+                        <rect key="frame" x="60" y="62.5" width="275" height="35"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thermometer.sun" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Ocx-FE-ati">
+                        <rect key="frame" x="224" y="111" width="37.5" height="34"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10~20°C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTy-16-haR">
+                        <rect key="frame" x="60" y="165.5" width="92" height="23"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYB-p2-eAw">
+                        <rect key="frame" x="63" y="111" width="59" height="35"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thermometer" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="aFo-QB-OZG">
+                        <rect key="frame" x="12.5" y="160.5" width="37.5" height="34"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="舒適至悶熱" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y81-kF-ZDy">
+                        <rect key="frame" x="173.5" y="166" width="137" height="23"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Mqo-b9-Ybw" firstAttribute="leading" secondItem="AWn-eG-U6F" secondAttribute="trailing" constant="4.5" id="1vy-yD-P1C"/>
+                    <constraint firstItem="aFo-QB-OZG" firstAttribute="width" secondItem="xAH-yj-rp4" secondAttribute="width" multiplier="0.773196" id="4Ra-Ig-8r5"/>
+                    <constraint firstItem="y81-kF-ZDy" firstAttribute="height" secondItem="Ocx-FE-ati" secondAttribute="height" multiplier="0.754098" id="8ZK-hN-7hI"/>
+                    <constraint firstItem="EYB-p2-eAw" firstAttribute="leading" secondItem="xAH-yj-rp4" secondAttribute="trailing" constant="7.5" id="8ZY-De-mCE"/>
+                    <constraint firstItem="bsb-3i-5lj" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.259901" id="A1j-s0-76D"/>
+                    <constraint firstItem="EYB-p2-eAw" firstAttribute="height" secondItem="xAH-yj-rp4" secondAttribute="height" multiplier="0.721649" id="AWh-Kn-Jez"/>
+                    <constraint firstItem="Mqo-b9-Ybw" firstAttribute="centerY" secondItem="AWn-eG-U6F" secondAttribute="centerY" id="AYW-Jb-sbi"/>
+                    <constraint firstItem="Ocx-FE-ati" firstAttribute="centerY" secondItem="xAH-yj-rp4" secondAttribute="centerY" id="BJP-dj-kZZ"/>
+                    <constraint firstItem="cTy-16-haR" firstAttribute="height" secondItem="aFo-QB-OZG" secondAttribute="height" multiplier="0.686567" id="BL9-BJ-jYa"/>
+                    <constraint firstItem="xAH-yj-rp4" firstAttribute="centerX" secondItem="AWn-eG-U6F" secondAttribute="centerX" id="DN2-nW-Oso"/>
+                    <constraint firstItem="AWn-eG-U6F" firstAttribute="width" secondItem="bsb-3i-5lj" secondAttribute="width" id="DRr-Le-lIm"/>
+                    <constraint firstItem="AWn-eG-U6F" firstAttribute="top" secondItem="bsb-3i-5lj" secondAttribute="bottom" constant="-5.5" id="FUi-QD-ALe"/>
+                    <constraint firstItem="cTy-16-haR" firstAttribute="leading" secondItem="aFo-QB-OZG" secondAttribute="trailing" constant="10" id="FnQ-4W-6xJ"/>
+                    <constraint firstItem="Mqo-b9-Ybw" firstAttribute="width" secondItem="AWn-eG-U6F" secondAttribute="width" multiplier="5.6701" id="FqN-om-E86"/>
+                    <constraint firstItem="Ocx-FE-ati" firstAttribute="width" secondItem="xAH-yj-rp4" secondAttribute="width" multiplier="0.742268" id="GSQ-ly-hha"/>
+                    <constraint firstItem="EYB-p2-eAw" firstAttribute="width" secondItem="xAH-yj-rp4" secondAttribute="width" multiplier="1.21649" id="GgE-I2-av9"/>
+                    <constraint firstItem="AWn-eG-U6F" firstAttribute="height" secondItem="bsb-3i-5lj" secondAttribute="height" multiplier="1.09524" id="HAn-qt-phF"/>
+                    <constraint firstItem="aFo-QB-OZG" firstAttribute="centerX" secondItem="xAH-yj-rp4" secondAttribute="centerX" id="Mpz-e3-2XF"/>
+                    <constraint firstItem="bsb-3i-5lj" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.139769" id="NTS-Dc-xJ0"/>
+                    <constraint firstAttribute="bottom" secondItem="bsb-3i-5lj" secondAttribute="bottom" constant="145.5" id="Ng4-yS-Tpt"/>
+                    <constraint firstItem="y81-kF-ZDy" firstAttribute="width" secondItem="Ocx-FE-ati" secondAttribute="width" multiplier="3.80556" id="QpI-js-U4v"/>
+                    <constraint firstItem="xAH-yj-rp4" firstAttribute="top" secondItem="AWn-eG-U6F" secondAttribute="bottom" constant="-4.5" id="RCR-jz-Nh7"/>
+                    <constraint firstItem="bsb-3i-5lj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="7" id="U0n-4A-oX5"/>
+                    <constraint firstItem="fgb-ZW-N9u" firstAttribute="leading" secondItem="bsb-3i-5lj" secondAttribute="trailing" constant="1.5" id="XKM-74-aNU"/>
+                    <constraint firstItem="xAH-yj-rp4" firstAttribute="height" secondItem="AWn-eG-U6F" secondAttribute="height" multiplier="0.843478" id="Xmu-Oa-XCe"/>
+                    <constraint firstItem="cTy-16-haR" firstAttribute="width" secondItem="aFo-QB-OZG" secondAttribute="width" multiplier="2.45333" id="Zq5-5g-WGJ"/>
+                    <constraint firstItem="y81-kF-ZDy" firstAttribute="centerX" secondItem="Ocx-FE-ati" secondAttribute="centerX" id="Zws-8f-2pL"/>
+                    <constraint firstItem="aFo-QB-OZG" firstAttribute="top" secondItem="xAH-yj-rp4" secondAttribute="bottom" constant="7.5" id="b1y-yZ-9gA"/>
+                    <constraint firstItem="fgb-ZW-N9u" firstAttribute="centerY" secondItem="bsb-3i-5lj" secondAttribute="centerY" id="b75-vi-B4B"/>
+                    <constraint firstItem="aFo-QB-OZG" firstAttribute="height" secondItem="xAH-yj-rp4" secondAttribute="height" multiplier="0.690722" id="bwu-Iu-Xz1"/>
+                    <constraint firstItem="Ocx-FE-ati" firstAttribute="height" secondItem="xAH-yj-rp4" secondAttribute="height" multiplier="0.628866" id="gGP-Ip-B1W"/>
+                    <constraint firstItem="xAH-yj-rp4" firstAttribute="width" secondItem="AWn-eG-U6F" secondAttribute="width" id="lH3-MI-EOk"/>
+                    <constraint firstItem="Mqo-b9-Ybw" firstAttribute="height" secondItem="AWn-eG-U6F" secondAttribute="height" multiplier="0.608696" id="lwD-ph-kgI"/>
+                    <constraint firstItem="EYB-p2-eAw" firstAttribute="centerY" secondItem="xAH-yj-rp4" secondAttribute="centerY" id="pl8-zJ-kLT"/>
+                    <constraint firstItem="fgb-ZW-N9u" firstAttribute="width" secondItem="bsb-3i-5lj" secondAttribute="width" multiplier="5.36082" id="qX4-OR-U9k"/>
+                    <constraint firstItem="Ocx-FE-ati" firstAttribute="leading" secondItem="xAH-yj-rp4" secondAttribute="trailing" constant="168.5" id="rdj-1H-bl2"/>
+                    <constraint firstItem="AWn-eG-U6F" firstAttribute="centerX" secondItem="bsb-3i-5lj" secondAttribute="centerX" id="vDf-pD-ilM"/>
+                    <constraint firstItem="fgb-ZW-N9u" firstAttribute="height" secondItem="bsb-3i-5lj" secondAttribute="height" multiplier="0.657143" id="waX-D0-uZn"/>
+                    <constraint firstItem="cTy-16-haR" firstAttribute="centerY" secondItem="aFo-QB-OZG" secondAttribute="centerY" id="wdT-BY-LoJ"/>
+                    <constraint firstItem="y81-kF-ZDy" firstAttribute="top" secondItem="Ocx-FE-ati" secondAttribute="bottom" constant="22.5" id="zEv-L5-uX4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="laci" destination="y81-kF-ZDy" id="a76-rv-yhN"/>
+                <outlet property="laminmanT" destination="cTy-16-haR" id="XFO-np-j06"/>
+                <outlet property="lapop" destination="EYB-p2-eAw" id="kBh-al-PO2"/>
+                <outlet property="latime" destination="fgb-ZW-N9u" id="UCn-SK-HNL"/>
+                <outlet property="lawx" destination="Mqo-b9-Ybw" id="sEh-ca-her"/>
+            </connections>
+            <point key="canvasLocation" x="145.6521739130435" y="131.25"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="clock" catalog="system" width="128" height="121"/>
+        <image name="cloud" catalog="system" width="128" height="88"/>
+        <image name="cloud.drizzle" catalog="system" width="125" height="128"/>
+        <image name="thermometer" catalog="system" width="81" height="128"/>
+        <image name="thermometer.sun" catalog="system" width="103" height="128"/>
+    </resources>
+</document>
