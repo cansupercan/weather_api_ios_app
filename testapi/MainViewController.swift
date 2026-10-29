@@ -62,7 +62,7 @@ class MainViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     func callapi(){
         
         
-        let requestURL = LegitimateURl(requestURL: "https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWA-A4AA97C5-E3C1-4BEB-B730-688876F81863&locationName=" + city)
+        let requestURL = LegitimateURl(requestURL: "https://opendata.cwa.gov.tw/api/v1/rest/datastore/&locationName=" + city)
         
         URLSession.shared.dataTask(with: requestURL){[self]
             (data,response,error) in
